@@ -3,6 +3,7 @@ keystate = {}
 attack = "FIRE"
 // attack = "SPECIAL"
 attackDist = 100
+attackAngle = 0.3
 moveDist = 50
 
 if (Players.getMe().type == 2) {
