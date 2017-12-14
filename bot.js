@@ -3,7 +3,7 @@ keystate = {}
 attack = "FIRE"
 // attack = "SPECIAL"
 attackDist = 100
-
+moveDist = 50
 
 if (Players.getMe().type == 2) {
   // Goliath
@@ -219,9 +219,7 @@ run = function(seconds) {
       send("LEFT", false)
 
     } else {
-      send("UP", false)
-
-      // step();
+      step();
       i++;
       if (i < seconds*1000/tickTime) {
         setTimeout(countedStep, tickTime);
