@@ -1,6 +1,6 @@
 
 function troll() {
   Network.sendSay(":tf:")
-  setTimeout(500, troll);
+  setTimeout(5000, troll);
 }
 troll();
